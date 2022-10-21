@@ -1,0 +1,146 @@
+{
+  "stage": {
+    "wave": [
+      {
+        "waveId": 0,
+        "time": {
+          "startTime": 0,
+          "endTime": 1000,
+          "spawnInterval": 1.0
+        },
+        "enemyType": "A",
+        "numberOfEnemies": 7,
+        "enemyLaser": {
+          "color": "laserBlue14",
+          "type": "B",
+          "amount": "20",
+          "speed": "10",
+          "width" : 2.0,
+          "height" : 1.0
+        },
+        "enemyCharacter": {
+          "enemyTexture": "enemyBlack2",
+          "shieldTexture": "shield3",
+          "width": 10,
+          "height": 12,
+          "xstart": 60,
+          "ystart": 128,
+          "movementSpeed": 3.5,
+          "movement": "RL"
+        }
+      },
+      {
+        "waveId": 1,
+        "time": {
+          "startTime": 15,
+          "endTime": 10,
+          "spawnInterval": 1.0
+        },
+        "enemyType": "A",
+        "numberOfEnemies": 20,
+        "enemyLaser": {
+          "color": "laserRed09",
+          "type": "B",
+          "amount": "20",
+          "speed": "10",
+          "width" : 4.0,
+          "height" : 4.0
+        },
+        "enemyCharacter": {
+          "enemyTexture": "enemyGreen3",
+          "shieldTexture": "shield1",
+          "width": 7,
+          "height": 10,
+          "xstart": 5,
+          "ystart": 128,
+          "movementSpeed": 5.8,
+          "movement": "W"
+        }
+      },
+      {
+        "waveId": 4,
+        "time": {
+          "startTime": 25,
+          "endTime": 10,
+          "spawnInterval": 1.0
+        },
+        "enemyType": "A",
+        "numberOfEnemies": 20,
+        "enemyLaser": {
+          "color": "fire13",
+          "type": "B",
+          "amount": "20",
+          "speed": "10",
+          "width" : 2.0,
+          "height" : 1.0
+        },
+        "enemyCharacter": {
+          "enemyTexture": "enemyRed3",
+          "shieldTexture": "shield1",
+          "width": 7,
+          "height": 10,
+          "xstart": 5,
+          "ystart": 128,
+          "movementSpeed": 4.8,
+          "movement": "L"
+        }
+      },
+      {
+        "waveId": 2,
+        "time": {
+          "startTime": 10,
+          "endTime": 1000,
+          "spawnInterval": 2.0
+        },
+        "enemyType": "A",
+        "numberOfEnemies": 5,
+        "enemyLaser": {
+          "color": "laserRed09",
+          "type": "B",
+          "amount": "20",
+          "speed": "10",
+          "width" : 2.0,
+          "height" : 2.0
+        },
+        "enemyCharacter": {
+          "enemyTexture": "enemyBlue5",
+          "shieldTexture": "shield2",
+          "width": 8,
+          "height": 8,
+          "xstart": 10,
+          "ystart": 110,
+          "movementSpeed": 3.0,
+          "movement": "Random"
+        }
+      },
+      {
+        "waveId": 3,
+        "time": {
+          "startTime": 20,
+          "endTime": 1000,
+          "spawnInterval": 1.0
+        },
+        "enemyType": "A",
+        "numberOfEnemies": 7,
+        "enemyLaser": {
+          "color": "red",
+          "type": "B",
+          "amount": "20",
+          "speed": "10",
+          "width" : 2.0,
+          "height" : 1.0
+        },
+        "enemyCharacter": {
+          "enemyTexture": "enemyBlack2",
+          "shieldTexture": "shield3",
+          "width": 10,
+          "height": 12,
+          "xstart": 60,
+          "ystart": 128,
+          "movementSpeed": 6.5,
+          "movement": "RL"
+        }
+      }
+    ]
+  }
+}
